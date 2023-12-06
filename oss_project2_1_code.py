@@ -25,7 +25,6 @@ for i in range(2015,2019):
 
 # 문제 2-1-2. war (승리 기여도)에 따른 가장 높은 값의 player 출력 by position (cp) in 2018. (15 points)
 # 데이터 프레임의 열들을 이렇게 나열 - 포수, 1루수, 2루수, 3루수, 유격수, 좌익수, 중견수, 우익수
-
 bb_df = bb[(bb['year'] == 2018)]
 temp = ['포수', '1루수', '2루수', '3루수', '유격수', '좌익수', '중견수', '우익수']
 value=[] # DataFrame의 batter_name list
